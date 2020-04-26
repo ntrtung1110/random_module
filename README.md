@@ -48,7 +48,10 @@ make
 # run application(sudo must be specified in case of os blocking of read device file)
 (sudo) ./user_test 
 ```
-
+### Deattached driver after using
+```
+sudo rmmod vchar_driver.ko
+```
 Screenshot of returned results
 
 <img src="/demo_image/demo.png" width=800 height=300 />
